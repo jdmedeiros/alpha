@@ -6,4 +6,4 @@
   become: yes
 
   roles:
-    - { role: alpha, task4: true }
+    - { role: alpha, task4: true, task5: true }
