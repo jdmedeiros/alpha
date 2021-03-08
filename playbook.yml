@@ -4,3 +4,7 @@
   connection: local
   gather_facts: yes
   become: false
+
+  roles:
+    - { role: alpha
+    }
