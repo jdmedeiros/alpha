@@ -5,5 +5,12 @@
   gather_facts: yes
   become: yes
 
+- name: Collect only facts returned by facter
+  ansible.builtin.setup:
+    gather_subset:
+      - '!all'
+      - '!any'
+      - facter
+
   roles:
     - { role: alpha, task4: true, task5: true }
