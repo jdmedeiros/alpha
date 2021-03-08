@@ -1,7 +1,7 @@
 ---
 - name: Update all clients
   hosts: all
-  connection: ansible.netcommon.network_cli
+  connection: local
   gather_facts: yes
   become: false
   tasks:
