@@ -6,6 +6,4 @@
   become: yes
 
   roles:
-    - { role: alpha,
-        in_vm: true
-    }
+    - { role: alpha }
