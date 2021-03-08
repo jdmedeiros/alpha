@@ -5,5 +5,3 @@
   gather_facts: yes
   become: yes
 
-  roles:
-    - { role: alpha }
