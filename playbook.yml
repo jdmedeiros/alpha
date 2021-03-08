@@ -3,7 +3,9 @@
   hosts: all
   connection: local
   gather_facts: yes
-  become: false
+  become: yes
 
   roles:
-    - { role: alpha }
+    - { role: alpha,
+        in_vm: true
+    }
