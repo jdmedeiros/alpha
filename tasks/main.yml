@@ -1,6 +1,6 @@
 ---
 # tasks file for alpha
-- 
+
 - include: task1.yml
     when: task1
 
