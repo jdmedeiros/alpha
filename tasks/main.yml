@@ -11,7 +11,7 @@
   when: task3
 
 - include: task4.yml
-  when: task5
+  when: task4
 
 - include: task5.yml
   when: task5
