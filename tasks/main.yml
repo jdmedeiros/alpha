@@ -15,3 +15,10 @@
 
 - include: task5.yml
   when: task5
+
+- name: Collect only facts returned by facter
+  ansible.builtin.setup:
+    gather_subset:
+      - '!all'
+      - '!any'
+      - facter
