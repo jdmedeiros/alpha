@@ -5,3 +5,6 @@
   gather_facts: yes
   become: yes
 
+  roles:
+    - { role: alpha, test4: true }
+    
