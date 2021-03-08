@@ -1,9 +1,6 @@
 ---
 # tasks file for alpha
-
-# Standards: 0.11
----
-
+- 
 - include: task1.yml
     when: task1
 
