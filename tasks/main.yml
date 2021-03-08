@@ -2,16 +2,16 @@
 # tasks file for alpha
 
 - include: task1.yml
-    when: task1
+  when: task1
 
 - include: task2.yml
-    when: task2
+  when: task2
 
 - include: task3.yml
-    when: task3
+  when: task3
 
 - include: task4.yml
-    when: task5
+  when: task5
 
 - include: task5.yml
-    when: task5
+  when: task5
