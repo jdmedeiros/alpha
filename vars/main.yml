@@ -1,2 +1,10 @@
 ---
 # vars file for alpha
+
+task1: true # Executar tarefa 1
+task2: true # Executar tarefa 2
+task3: true # Executar tarefa 3
+task4: true # Executar tarefa 4
+task5: true # Executar tarefa 5
+
+

@@ -1,0 +1,5 @@
+---
+# Default IPv4 addresses
+
+  - name: Default IPv4 addresses
+    debug: msg="{{ ansible_default_ipv4.address }}"

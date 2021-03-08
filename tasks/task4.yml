@@ -1,0 +1,5 @@
+---
+# All IPv4 addresses
+
+- name: All IPv4 addresses
+  debug: msg="{{ ansible_all_ipv4_addresses }}"
